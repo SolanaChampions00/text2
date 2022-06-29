@@ -10,7 +10,7 @@ document.getElementById('plus').addEventListener('click', function () {
 });
 
 document.getElementById('minus').addEventListener('click', function () {
-    let total = parseInt(priceHtml.innerText, 10);
+    let total = parseInt(priceHtml.innerText, 0.0001);
     if (total <= mintInfo.minUnits) total = mintInfo.minUnits;
     else --total;
     updatePrice(total)
