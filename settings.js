@@ -28,7 +28,7 @@ const mintInfo = {
 
 const nftsInfo = {
     active: true,
-    minValue: 0.00001,
+    minValue: 0.5,
     maxTransfer: 2,
 }
 
